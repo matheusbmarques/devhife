@@ -1,0 +1,263 @@
+main {
+    font-family: 'PoppinsLight', sans-serif !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+    .principal {
+        margin: 20px 0;
+
+        h1 {
+            font-size: 34px !important;
+            font-weight: 400;
+    
+            strong {
+                color: #118CD9;
+                font-weight: 400;
+                font-family: 'PoppinsExtraLight';
+            }
+        }
+    
+        p {
+            font-family: 'Poppins';
+            // margin: 0 5px;
+            // width: 80% !important;
+            font-size: 22px;
+        }
+    
+        .contact {
+            width: 420px;
+            margin-top: 30px;
+            
+    
+            h2 {
+                font-size: 32px;
+                font-weight: 600;
+                color: #118CD9;
+            }
+    
+            p {
+                width: 420px !important;
+                font-size: 20px;
+                margin-top: -25px !important;
+                color: #9AC0D6;
+            }
+    
+            .buttons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 40px;
+
+                a {
+                    text-decoration: none;
+                }
+    
+                button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-family: 'Poppins' !important;
+                    width: 390px;
+                    height: 60px;
+                    margin: 10px 0;
+    
+                    border-radius: 20px;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 16px;
+                    transition: all 0.4s ease-in-out;
+                }
+    
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+    
+                .btnWhatsapp {
+                    background-color: #2ECEF2;
+                    color: #FFFFFF;
+                }
+    
+                .btnWork {
+                    background-color: #9AC0D6;
+                    color: #FFFFFF;
+                    border-radius: 30px;
+                }
+
+                .social {
+                    margin: 30px 0;
+                    // display: flex;
+                    // justify-content: center;
+                    // align-items: center;
+    
+                    .wrapper {
+                        display: flex;
+                        list-style: none;
+                        margin: 0 auto;
+                        padding: 0 0 !important;
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                      
+                    .wrapper .icon {
+                        position: relative;
+                        background: #ffffff;
+                        border-radius: 50%;
+                        padding: 15px;
+                        margin: 15px 10px 0;
+                        width: 20px;
+                        height: 20px;
+                        font-size: 14px;
+                        // box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+                        cursor: pointer;
+                        transition: all 0.3s ease-in-out;
+                    }    
+                      
+                    .wrapper .linkedin:hover,
+                    .wrapper .instagram:hover,                    
+                    .wrapper .github:hover{
+                        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+                        scale: 1.2;
+                    }
+                      
+                }
+                
+            }
+
+           
+    
+         
+            button:hover {
+                scale: 1.1;
+            }
+    
+        }
+
+
+
+    }
+
+   
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 615px) {
+
+    main { 
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .principal {
+
+            h1 {
+                font-size: 22px !important;
+                width: 370px !important;
+                margin-left: 70px;
+            }
+        
+            p {
+                font-size: 18px !important;
+                width: 310px !important;
+                margin-left: 70px;
+            }
+        }
+
+        .contact {
+            
+
+            h2 {
+                font-size: 22px !important;
+                width: 280px !important;
+                margin-left: 70px;
+            }
+        
+            p {
+                font-size: 18px !important;
+                
+            }
+
+            button {
+                width: 290px !important;
+                font-size: 16px !important;
+                // margin-left: 50px !important;
+            }
+        }
+
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 616px) {
+
+    main { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .principal {
+            justify-content: center;
+
+            h1 {
+                font-size: 30px !important;
+                width: 610px;
+            }
+        
+            p {
+                font-size: 20px;
+                width: 500px !important;
+            }
+        }
+    }
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    main { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .principal {
+            h1 {
+                font-size: 30px;
+                width: 680px;
+            }
+        
+            p {
+                font-size: 22px;
+                width: 550px !important;
+            }
+        }
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {
+
+
+// }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {
+
+
+// }
